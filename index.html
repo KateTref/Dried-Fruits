@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dried Fruits</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+    <header class="head">
+        <div class="container">
+            <div class="head__logo">
+                <a class="link" href="./index.html">
+                    <picture>
+                        <source srcset="./images/logo-desktop-1x.jpg 1x,
+                 ./images/logo-desktop-2x.jpg 2x" media="(min-width: 1200px)" />
+                        <source srcset="./images/logo-mob-1x.jpg 1x,
+                 ./images/logo-mob-2x.jpg 2x" media="(max-width: 1199px)" />
+                        <img src="./images/logo-mob-1x.jpg" alt="Логотип" width="76" />
+                    </picture>
+                </a>
+            </div>
+
+            <a class="link tel" href="tel:+380993675901">
+                <svg class="head__tel-icon" width="10" height="10">
+                    <use href="./images/icon.svg#icon-tel"></use>
+                </svg>
+                +38 (099) 367 59 01
+            </a>
+            <button type="button" class="open-menu">
+                <svg class="open-menu__icon" width="45" height="23">
+                    <use href="./images/icon.svg#icon-gamburger"></use>
+                </svg>
+            </button>
+            <div class="mob-menu">
+                <ul>
+                    <li><a class="link" href="">Главная</a></li>
+                    <li><a class="link" href="">Каталог</a></li>
+                    <li><a class="link" href="">О нас</a></li>
+                    <li><a class="link" href="">О доставке</a></li>
+                    <li><a class="link" href="">Магазины</a></li>
+                    <li><a class="link" href="">Контакты</a></li>
+                </ul>
+                <a class="link" href="">Избранное</a>
+                <a class="link" href="">Корзина <span>3</span></a>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
